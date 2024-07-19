@@ -1,0 +1,255 @@
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: #ffffff;
+
+}
+
+body, p, a{
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+.info{
+    position: relative;
+    left: 10%;
+    margin: 70px auto;
+
+}
+
+.info h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    font-size: 40px;
+    margin-top: 100px;
+}
+ 
+
+
+.cover{
+    max-width: 80%;
+  
+    box-shadow: -5px 0 10px -3px #CBD4DB, -10px 0 15px -7px rgba(25, 135, 84, 0.2);
+    border-radius: 50%;
+    float: right;
+    position: relative;
+    z-index: -1;
+    
+}
+
+#hero, #mission {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;  
+}
+
+/*VISION*/
+
+#vision{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 120px auto 60px auto;
+    border-radius: 16px;
+    padding: 60px 30px;
+}
+
+.img-vision{
+    width: 65%;
+    border-radius: 50%;
+    box-shadow: -5px 0 10px -3px #CBD4DB, -10px 0 15px -7px rgba(25, 135, 84, 0.2);
+    float: left;
+    margin: auto;
+   
+}
+
+.text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+    text-align: center;
+    margin: 40px 0 24px 0;
+}
+
+
+.text-container .header-vision{
+    font-size: 34px ;
+    font-family: 'Playfair', serif;
+    font-weight: 500;
+    font-style: italic;
+    color: black;
+    margin: 8px 0;
+    text-align: center;
+}
+ 
+#vision .text-container .subheader-vision{
+    font-size: 24px;
+    font-family: 'Playfair', serif;
+    font-weight: 600;
+    font-style:normal;
+    margin-bottom: 32px ;
+    text-align: center;
+   
+    
+}
+
+#vision .text-container .text-vision{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    line-height: 32px;
+}
+/*ABOUT*/
+
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 60px auto;
+    border-radius: 16px;
+    padding: 60px 30px;
+}
+
+
+.img-about{
+    width: 65%;
+    border-radius: 50%;
+    box-shadow: -5px 0 10px -3px #CBD4DB, -10px 0 15px -7px rgba(25, 135, 84, 0.2);
+    float: right;
+    margin: auto;
+   
+}
+
+#about .text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  text-align: center;
+  margin: 40px 0 24px 0;
+}
+
+#about .text-container .header-about{
+    font-size: 34px ;
+    font-family: 'Playfair', serif;
+    font-weight: 500;
+    font-style: italic;
+    color: black;
+    margin: 32px auto;
+    text-align: center;
+}
+
+#about .text-container .text-about{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    line-height: 32px;
+
+}
+
+
+/*MISSION*/
+#mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 0;
+    border-radius: 16px;
+    padding: 60px 30px;
+}
+
+
+.header-mission{
+    font-size: 34px ;
+    font-family: 'Playfair', serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.mission-img{
+    width: 320px;
+    margin-bottom: 32px;
+    margin: auto;
+
+}
+
+.text-mission{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    line-height: 32px;
+    margin-left: 16px;
+    border-bottom: 2px solid green;
+
+}
+
+
+/*INFO*/
+
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 60px auto;
+    border-radius: 16px;
+    padding: 60px 30px;
+}
+.info-img{
+    
+    width: 55%;
+    border-radius:50%;
+    box-shadow: -5px 0 10px -3px #CBD4DB, -10px 0 15px -7px rgba(25, 135, 84, 0.2);
+    float: right;
+   margin-right: 24px;
+   position:relative;
+   top: 8%;
+}
+
+
+#info .text-container .header-info{
+    font-size: 34px ;
+    font-family: 'Playfair', serif;
+    font-weight: 500;
+    font-style: italic;
+    color: black;
+    margin: 8px auto 32px auto;
+    text-align: center;
+}
+
+#info  p{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+
+/*FOOTER*/
+
+#footer h4{
+    font-family: 'Roboto', sans-serif;
+    
+    font-size: 18px;
+
+}
+#footer p:hover{
+    color: #6C757D;
+}
+#footer p:hover{
+    color: #ffffff;
+}
+
