@@ -1,43 +1,35 @@
-
+/* Style per desktop (default) */
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
     font-size: 28px;
     color: #ffffff;
-
 }
 
-body, p, a{
+body, p, a {
     font-family: 'Roboto', sans-serif;
-   
 }
 
-
-.info{
+.info {
     position: relative;
     left: 10%;
     margin: 70px auto;
-
 }
 
-.info h2{
+.info h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
     letter-spacing: 1.5px;
     font-size: 40px;
     margin-top: 100px;
 }
- 
 
-
-.cover{
+.cover {
     max-width: 80%;
-  
     box-shadow: -5px 0 10px -3px #CBD4DB, -10px 0 15px -7px rgba(25, 135, 84, 0.2);
     border-radius: 50%;
     float: right;
     position: relative;
     z-index: -1;
-    
 }
 
 #hero, #mission {
@@ -45,8 +37,7 @@ body, p, a{
 }
 
 /*VISION*/
-
-#vision{
+#vision {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -56,55 +47,51 @@ body, p, a{
     padding: 60px 30px;
 }
 
-.img-vision{
+.img-vision {
     width: 65%;
     border-radius: 50%;
     box-shadow: -5px 0 10px -3px #CBD4DB, -10px 0 15px -7px rgba(25, 135, 84, 0.2);
     float: left;
     margin: auto;
-   
 }
 
-.text-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
     text-align: center;
     margin: 40px 0 24px 0;
 }
 
-
-.text-container .header-vision{
-    font-size: 34px ;
-    font-family: 'Playfair', serif;
+.text-container .header-vision {
+    font-size: 34px;
+    font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-style: italic;
     color: black;
     margin: 8px 0;
     text-align: center;
 }
- 
-#vision .text-container .subheader-vision{
+
+#vision .text-container .subheader-vision {
     font-size: 24px;
-    font-family: 'Playfair', serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 600;
-    font-style:normal;
-    margin-bottom: 32px ;
+    font-style: normal;
+    margin-bottom: 32px;
     text-align: center;
-   
-    
 }
 
-#vision .text-container .text-vision{
+#vision .text-container .text-vision {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: italic;
     text-align: center;
     line-height: 32px;
 }
-/*ABOUT*/
 
-#about{
+/*ABOUT*/
+#about {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -114,27 +101,25 @@ body, p, a{
     padding: 60px 30px;
 }
 
-
-.img-about{
+.img-about {
     width: 65%;
     border-radius: 50%;
     box-shadow: -5px 0 10px -3px #CBD4DB, -10px 0 15px -7px rgba(25, 135, 84, 0.2);
     float: right;
     margin: auto;
-   
 }
 
-#about .text-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-  text-align: center;
-  margin: 40px 0 24px 0;
+#about .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    margin: 40px 0 24px 0;
 }
 
-#about .text-container .header-about{
-    font-size: 34px ;
-    font-family: 'Playfair', serif;
+#about .text-container .header-about {
+    font-size: 34px;
+    font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-style: italic;
     color: black;
@@ -142,19 +127,16 @@ body, p, a{
     text-align: center;
 }
 
-#about .text-container .text-about{
-
+#about .text-container .text-about {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: italic;
     text-align: center;
     line-height: 32px;
-
 }
 
-
 /*MISSION*/
-#mission{
+#mission {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,10 +146,9 @@ body, p, a{
     padding: 60px 30px;
 }
 
-
-.header-mission{
-    font-size: 34px ;
-    font-family: 'Playfair', serif;
+.header-mission {
+    font-size: 34px;
+    font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-style: normal;
     color: black;
@@ -175,14 +156,13 @@ body, p, a{
     text-align: center;
 }
 
-.mission-img{
+.mission-img {
     width: 320px;
     margin-bottom: 32px;
     margin: auto;
-
 }
 
-.text-mission{
+.text-mission {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: italic;
@@ -190,13 +170,10 @@ body, p, a{
     line-height: 32px;
     margin-left: 16px;
     border-bottom: 2px solid green;
-
 }
 
-
 /*INFO*/
-
-#info{
+#info {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -205,21 +182,20 @@ body, p, a{
     border-radius: 16px;
     padding: 60px 30px;
 }
-.info-img{
-    
+
+.info-img {
     width: 55%;
-    border-radius:50%;
+    border-radius: 50%;
     box-shadow: -5px 0 10px -3px #CBD4DB, -10px 0 15px -7px rgba(25, 135, 84, 0.2);
     float: right;
-   margin-right: 24px;
-   position:relative;
-   top: 8%;
+    margin-right: 24px;
+    position: relative;
+    top: 8%;
 }
 
-
-#info .text-container .header-info{
-    font-size: 34px ;
-    font-family: 'Playfair', serif;
+#info .text-container .header-info {
+    font-size: 34px;
+    font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-style: italic;
     color: black;
@@ -227,29 +203,74 @@ body, p, a{
     text-align: center;
 }
 
-#info  p{
-
+#info p {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-style: italic;
     text-align: center;
     line-height: 30px;
-
 }
-
 
 /*FOOTER*/
-
-#footer h4{
+#footer h4 {
     font-family: 'Roboto', sans-serif;
-    
     font-size: 18px;
-
 }
-#footer p:hover{
+
+#footer p:hover {
     color: #6C757D;
 }
-#footer p:hover{
+
+#footer p:hover {
     color: #ffffff;
 }
 
+/* Media Queries per Tablet */
+@media (max-width: 768px) {
+    .row > .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cover, .img-vision, .img-about, .info-img {
+        max-width: 100%;
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .info, .text-container {
+        left: 0;
+        margin: 20px auto;
+    }
+
+    .info h2 {
+        margin-top: 20px;
+    }
+}
+
+/* Media Queries per Smartphone */
+@media (max-width: 480px) {
+    .row > .col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cover, .img-vision, .img-about, .info-img {
+        max-width: 100%;
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .info, .text-container {
+        left: 0;
+        margin: 20px auto;
+    }
+
+    .info h2 {
+        margin-top: 20px;
+    }
+}
